@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/css/style.css" />
+  <title><%= title %></title>
+</head>
+<body>
+  <h1><%= title %><h1>
+  <img src="/img/img1.jpg" /><br/>
+  <h2><%= rez %></h2>
+  <h2>Welcome <%= name %></h2>
+  <input type="button" value="Вывести список задач" class="button" onclick="add('<%= list %>')">
+  <p><span id="result_multi"></span></p>
+  <input value="Выйти и вернуться на главную" type="button" class="button" onclick="location.href='/'" />
+</body>
+<script>
+function add(list) {
+  let arr = list.split(',');
+  let html = '<li class="button2">' + arr.join('</li><li class="button2">') + '</li>';
+  document.getElementById('result_multi').innerHTML = html;	
+}
+</script>
+</html>
