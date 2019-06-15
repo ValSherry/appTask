@@ -37,11 +37,11 @@ node app.js
 
 Запускается приложение - http://localhost:3000
 
-Главная страница
-![alt text](images/index.jpg) 
+Главная страница  
+![alt text](images/index.png) 
 
-Страница с выводом из базы данных 
-![alt text](images/Zadachi.jpg) 
+Страница с выводом из базы данных  
+![alt text](images/Zadachi.png) 
 
-Страница регистрации
-![alt text](images/reristration.jpg) 
+Страница регистрации  
+![alt text](images/reristration.png) 
