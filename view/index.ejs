@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/style.css" />
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div>
+      <h1><%= title %></h1>
+	  <img src="/img/img2.jpg" />
+	  <p>Здраствуйте пользователь!</p>
+      <form method="POST" action="/verification">
+        <span>Введите логин</span><br/>
+        <input name="userName" class="edit"></input><br/><br/>
+        <span>Введите пароль</span><br/>	
+		<input name="PasWord" type="password" class="edit"></input><br/><br/> 
+		<button type="submit" class="button">Подтвердить ввод</button> <br/> 
+		<input value="Зарегистрироваться" type="button" class="button" onclick="location.href='/registration'" />
+      </form>
+    </div> 
+  </body> 
+</html>
