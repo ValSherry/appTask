@@ -6,7 +6,7 @@
 В качестве базы данных использован PostgreSQL.
 Параметры базы данных: const client = new Client({ host: 'localhost', port: 5432, user: 'postgres', password: 'Postgres', database: 'db' }); 
 
-Вбазе данных созданы таблицы: 
+В базе данных созданы таблицы: 
 1) users 
 CREATE TABLE public.users
 (
